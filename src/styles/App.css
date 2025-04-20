@@ -1,0 +1,73 @@
+/* Reset & base */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f8ff; /* bleu très clair */
+  }
+  
+  /* Centrage */
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Conteneur principal */
+  .form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 255, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  /* Titre */
+  .form-container h1 {
+    color: #004080;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  /* Champs */
+  input[type="text"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #b0c4de;
+    border-radius: 6px;
+    background-color: #f8faff;
+  }
+  
+  input[type="text"]:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: #4682b4;
+    background-color: #fff;
+  }
+  
+  /* Labels */
+  label {
+    color: #004080;
+    font-weight: 600;
+  }
+  
+  /* Boutons */
+  button {
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0059b3;
+  }
+  
